@@ -1,1 +1,5 @@
 .DS_Store
+modules/.DS_Store
+modules/__pycache__
+data/__pycache__
+neural_network/__pycache__
