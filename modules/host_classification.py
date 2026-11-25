@@ -40,7 +40,7 @@ def main(
     # Additionally, the following functions that use the `tensorflow` module are defined within `main`:
     # `write_tfrecord`, `generate_data`, `prepare_sample`, `parse_tfrecord`, `get_dataset`.
     import tensorflow as tf
-    from genomad import neural_network
+    from MetaHViC import neural_network
 
     tf.config.experimental.enable_tensor_float_32_execution(False)
     tf.config.threading.set_inter_op_parallelism_threads(threads)
